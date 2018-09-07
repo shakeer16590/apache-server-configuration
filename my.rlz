@@ -1,0 +1,13 @@
+$TTL 1D
+@	IN SOA	chefserver.example.com. root.example.com. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+		NS	chefserver.example.com.
+chefserver	A	192.168.10.21
+21		PTR	prod.example.com.
+21		PTR	chefserver.example.com.
+22		PTR	chefwork.example.com.
+23		PTR	chefnode.example.com.
